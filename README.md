@@ -23,3 +23,9 @@ Modernization metadata contains information about automated migrations performed
 `/reports/ (root-level)` 
 - Contains **summary reports** for the entire modernization process, including PR statistics, migration statistics, and a list of failed plugins.
 - `/reports/recipes/` – Contains a `.json` file for each recipe, detailing its application across different plugins.
+
+## Programmatic Usage
+
+- The metadata in this repository is structured for automated processing.
+- Consumers can parse JSON files in the `modernization-metadata/` directories or use aggregated reports under `/reports/` to compute metrics such as migration success rates and failure counts.
+- This enables integration with external analytics tools and reporting workflows.
