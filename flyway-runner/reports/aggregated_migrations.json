@@ -4,6 +4,167 @@
   "migrations": [
     {
       "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-06-06T16-01-56.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "timestamp": "2026-06-06T16-01-56"
+    },
+    {
+      "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/165",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-05-23T16-30-18.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
+      "timestamp": "2026-05-23T16-30-18"
+    },
+    {
+      "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/158",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T09-49-13.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
+      "timestamp": "2026-04-18T09-49-13"
+    },
+    {
+      "pluginVersion": "282.v7e837c0b_ff13",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/flyway-runner-plugin/pull/156",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-04-06T13-00-06.json",
+      "path": "metadata-plugin-modernizer/flyway-runner/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
+      "timestamp": "2026-04-06T13-00-06"
+    },
+    {
+      "pluginVersion": "282.v7e837c0b_ff13",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
       "effectiveBaseline": "2.516",
@@ -44,7 +205,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2026-01-24T14-19-46"
     },
     {
@@ -88,7 +249,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2026-01-14T10-54-22"
     },
     {
@@ -133,7 +294,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2026-01-10T21-33-57"
     },
     {
@@ -202,7 +363,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2026-01-10T20-02-35"
     },
     {
@@ -271,7 +432,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2026-01-03T19-00-05"
     },
     {
@@ -340,7 +501,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2025-08-09T09-32-09"
     },
     {
@@ -384,7 +545,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "2c9efeb8eee86e1f1230a25677144bb30f1edcc6",
+      "defaultBranchLatestCommitSha": "e8264d4fe0c2df201e07efc35769e3ec099b1ab1",
       "timestamp": "2025-07-27T10-32-46"
     }
   ]

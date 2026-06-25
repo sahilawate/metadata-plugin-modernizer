@@ -42,9 +42,9 @@
         "security-scan / scan": "success",
         "triage": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "a6df1a4fc80e435d8cdf9fa02ca21686bccbaee8",
+      "defaultBranchLatestCommitSha": "a0089b046e343046d3c9a913e6b598f292c062a8",
       "timestamp": "2025-09-09T15-15-50"
     }
   ]

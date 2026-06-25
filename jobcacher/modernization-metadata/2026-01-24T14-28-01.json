@@ -28,7 +28,7 @@
     "Jenkins Security Scan": "success",
     "security-scan / scan": "success"
   },
-  "checkRunsSummary": "pending",
+  "checkRunsSummary": "success",
   "defaultBranch": "main",
-  "defaultBranchLatestCommitSha": "47f479b6ce96482f341b2690397d7b628e9ca102"
+  "defaultBranchLatestCommitSha": "74ba026267b605b745257b93036524d026146360"
 }

@@ -3,6 +3,167 @@
   "pluginRepository": "https://github.com/jenkinsci/build-history-metrics-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "217.vf34ff6a_b_41ca_",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-06-06T15-38-49.json",
+      "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata",
+      "timestamp": "2026-06-06T15-38-49"
+    },
+    {
+      "pluginVersion": "217.vf34ff6a_b_41ca_",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/build-history-metrics-plugin/pull/109",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-05-23T16-13-07.json",
+      "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
+      "timestamp": "2026-05-23T16-13-07"
+    },
+    {
+      "pluginVersion": "183.vb_9c822e0943e",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/build-history-metrics-plugin/pull/103",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T09-31-17.json",
+      "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
+      "timestamp": "2026-04-18T09-31-17"
+    },
+    {
+      "pluginVersion": "183.vb_9c822e0943e",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/build-history-metrics-plugin/pull/102",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-04-06T12-40-40.json",
+      "path": "metadata-plugin-modernizer/build-history-metrics-plugin/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
+      "timestamp": "2026-04-06T12-40-40"
+    },
+    {
       "pluginVersion": "183.vb_9c822e0943e",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -31,9 +192,9 @@
         "Tests / linux-25 / Build (linux-25)": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2026-01-24T14-05-15"
     },
     {
@@ -78,7 +239,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2026-01-14T11-33-27"
     },
     {
@@ -122,7 +283,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2026-01-14T10-37-08"
     },
     {
@@ -167,7 +328,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2026-01-10T19-49-04"
     },
     {
@@ -211,7 +372,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2026-01-04T09-10-53"
     },
     {
@@ -257,7 +418,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2026-01-03T18-43-33"
     },
     {
@@ -302,7 +463,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2025-10-31T14-45-54"
     },
     {
@@ -348,7 +509,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2025-08-09T09-18-56"
     },
     {
@@ -392,7 +553,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "ad51aef56f25e9d3750fb92b036b40443194a79d",
+      "defaultBranchLatestCommitSha": "addad8ee053a7a8cd8d156d45fab96828a4b19b8",
       "timestamp": "2025-07-27T10-21-40"
     }
   ]

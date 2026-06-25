@@ -3,6 +3,63 @@
   "pluginRepository": "https://github.com/jenkinsci/artifactory-client-api-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "2.19.0-158.ve20b_86b_a_d36a_",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-06-06T15-33-53.json",
+      "path": "metadata-plugin-modernizer/artifactory-client-api/modernization-metadata",
+      "timestamp": "2026-06-06T15-33-53"
+    },
+    {
+      "pluginVersion": "2.19.0-158.ve20b_86b_a_d36a_",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/artifactory-client-api-plugin/pull/95",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-06-06T14-58-41.json",
+      "path": "metadata-plugin-modernizer/artifactory-client-api/modernization-metadata",
+      "checkRuns": {
+        "Jenkins": null,
+        "Jenkins Security Scan": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
+      "timestamp": "2026-06-06T14-58-41"
+    },
+    {
       "pluginVersion": "2.19.0-116.vc6e7efff0e6b_",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
@@ -31,9 +88,9 @@
         "Tests / linux-25 / Build (linux-25)": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2026-01-24T14-01-25"
     },
     {
@@ -77,7 +134,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2026-01-14T11-27-21"
     },
     {
@@ -120,7 +177,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2026-01-14T10-31-51"
     },
     {
@@ -164,7 +221,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2026-01-10T19-44-57"
     },
     {
@@ -209,7 +266,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2026-01-03T18-38-26"
     },
     {
@@ -253,7 +310,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2025-08-09T08-39-24"
     },
     {
@@ -296,7 +353,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "e20b86bad36afb21f47686e851a7fca3f920a664",
+      "defaultBranchLatestCommitSha": "56e395cd41e0b76f63b7c4c8f86e154d29f3a560",
       "timestamp": "2025-07-27T09-53-39"
     }
   ]

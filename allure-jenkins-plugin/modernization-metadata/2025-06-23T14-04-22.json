@@ -22,6 +22,6 @@
     "build": "success"
   },
   "checkRunsSummary": "success",
-  "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "592d38cfb742b457d0bf84f66f50e8331f701507"
+  "defaultBranch": "main",
+  "defaultBranchLatestCommitSha": "73f8a6c7415fd75264897f8e4f93fd041e5d5945"
 }

@@ -28,8 +28,8 @@
         "build": "success"
       },
       "checkRunsSummary": "success",
-      "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "dcbfc95ea10c3e92a9fdab902fe1e7ebd5c8144d",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "73f8a6c7415fd75264897f8e4f93fd041e5d5945",
       "timestamp": "2025-09-03T08-21-27"
     },
     {
@@ -58,8 +58,8 @@
         "build": "success"
       },
       "checkRunsSummary": "success",
-      "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "dcbfc95ea10c3e92a9fdab902fe1e7ebd5c8144d",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "73f8a6c7415fd75264897f8e4f93fd041e5d5945",
       "timestamp": "2025-07-23T08-11-14"
     },
     {
@@ -84,8 +84,8 @@
         "build": "success"
       },
       "checkRunsSummary": "success",
-      "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "dcbfc95ea10c3e92a9fdab902fe1e7ebd5c8144d",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "73f8a6c7415fd75264897f8e4f93fd041e5d5945",
       "timestamp": "2025-06-23T14-04-22"
     }
   ]

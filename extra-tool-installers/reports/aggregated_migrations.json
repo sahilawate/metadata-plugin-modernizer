@@ -3,6 +3,164 @@
   "pluginRepository": "https://github.com/jenkinsci/extra-tool-installers-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "234.v67a_eca_496b_8b_",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2026-06-06T15-50-49.json",
+      "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "timestamp": "2026-06-06T15-50-49"
+    },
+    {
+      "pluginVersion": "234.v67a_eca_496b_8b_",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/201",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-05-23T16-22-42.json",
+      "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
+      "timestamp": "2026-05-23T16-22-42"
+    },
+    {
+      "pluginVersion": "211.v880567f652f0",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/196",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T09-41-36.json",
+      "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
+      "timestamp": "2026-04-18T09-41-36"
+    },
+    {
+      "pluginVersion": "211.v880567f652f0",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/extra-tool-installers-plugin/pull/195",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-04-06T12-51-28.json",
+      "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
+      "timestamp": "2026-04-06T12-51-28"
+    },
+    {
       "pluginVersion": "211.v880567f652f0",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -29,9 +187,9 @@
         "Jenkins Security Scan": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2026-01-24T14-14-25"
     },
     {
@@ -75,7 +233,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2026-01-14T11-46-39"
     },
     {
@@ -118,7 +276,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2026-01-14T10-47-31"
     },
     {
@@ -162,7 +320,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2026-01-10T19-57-10"
     },
     {
@@ -205,7 +363,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2026-01-04T09-17-31"
     },
     {
@@ -251,7 +409,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2026-01-03T18-53-02"
     },
     {
@@ -280,9 +438,9 @@
         "Jenkins Security Scan": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2025-11-18T05-51-04"
     },
     {
@@ -327,7 +485,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2025-10-31T14-56-42"
     },
     {
@@ -373,7 +531,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2025-08-09T09-26-42"
     },
     {
@@ -417,7 +575,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "fbe55767515b0a73681cc1b79ff1b8961a7127d9",
+      "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6",
       "timestamp": "2025-07-27T10-29-13"
     }
   ]

@@ -3,6 +3,143 @@
   "pluginRepository": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "144.vb_727c9b_7d229",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/89",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-06-06T16-20-08.json",
+      "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
+      "timestamp": "2026-06-06T16-20-08"
+    },
+    {
+      "pluginVersion": "128.v17124edd7332",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/73",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T10-04-36.json",
+      "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
+      "timestamp": "2026-04-18T10-04-36"
+    },
+    {
+      "pluginVersion": "128.v17124edd7332",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-oras-storage-plugin/pull/72",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-04-06T13-16-26.json",
+      "path": "metadata-plugin-modernizer/jobcacher-oras-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "Code Coverage": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-21 / Build (linux-21)": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
+      "timestamp": "2026-04-06T13-16-26"
+    },
+    {
       "pluginVersion": "86.v37b_94609150a_",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -30,9 +167,9 @@
         "Jenkins Security Scan": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2026-01-24T14-30-29"
     },
     {
@@ -77,7 +214,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2026-01-14T12-11-05"
     },
     {
@@ -121,7 +258,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2026-01-14T11-10-11"
     },
     {
@@ -166,7 +303,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2026-01-10T20-13-51"
     },
     {
@@ -210,7 +347,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2026-01-04T09-32-05"
     },
     {
@@ -256,7 +393,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2026-01-03T19-13-28"
     },
     {
@@ -301,7 +438,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2025-10-31T15-18-48"
     },
     {
@@ -347,7 +484,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2025-08-09T09-48-18"
     },
     {
@@ -391,7 +528,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "17124edd7332514e1849a87ebc79a874a3c87792",
+      "defaultBranchLatestCommitSha": "f78d52b8345c67c5bdd25df5ea3e68935c0d0bfd",
       "timestamp": "2025-07-27T10-44-24"
     }
   ]

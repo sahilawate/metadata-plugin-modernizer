@@ -40,7 +40,7 @@
     "security-scan / scan": "success",
     "triage": "success"
   },
-  "checkRunsSummary": "pending",
+  "checkRunsSummary": "success",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "eaf0d8274385254737220fca0e8231cc773d5529"
+  "defaultBranchLatestCommitSha": "a0089b046e343046d3c9a913e6b598f292c062a8"
 }

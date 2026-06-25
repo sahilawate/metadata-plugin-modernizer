@@ -3,6 +3,140 @@
   "pluginRepository": "https://github.com/jenkinsci/nunit-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "648.vdc8c6431f464",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/nunit-plugin/pull/192",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-06-06T16-39-47.json",
+      "path": "metadata-plugin-modernizer/nunit/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
+      "timestamp": "2026-06-06T16-39-47"
+    },
+    {
+      "pluginVersion": "617.vb_152b_0a_7d168",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/nunit-plugin/pull/187",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T10-16-06.json",
+      "path": "metadata-plugin-modernizer/nunit/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
+      "timestamp": "2026-04-18T10-16-06"
+    },
+    {
+      "pluginVersion": "617.vb_152b_0a_7d168",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/nunit-plugin/pull/186",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-04-06T13-28-29.json",
+      "path": "metadata-plugin-modernizer/nunit/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
+      "timestamp": "2026-04-06T13-28-29"
+    },
+    {
       "pluginVersion": "617.vb_152b_0a_7d168",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -31,9 +165,9 @@
         "Tests / linux-25 / Build (linux-25)": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2026-01-24T14-41-59"
     },
     {
@@ -77,7 +211,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2026-01-14T12-26-08"
     },
     {
@@ -120,7 +254,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2026-01-14T11-28-03"
     },
     {
@@ -164,7 +298,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2026-01-10T20-26-53"
     },
     {
@@ -207,7 +341,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2026-01-04T09-36-55"
     },
     {
@@ -253,7 +387,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2026-01-03T19-30-15"
     },
     {
@@ -368,7 +502,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2025-08-09T10-00-01"
     },
     {
@@ -412,7 +546,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "65c359ade8fed05c6bb069688a8add6ac3535274",
+      "defaultBranchLatestCommitSha": "9eddfed15bf2614263d181968a4433a008c38607",
       "timestamp": "2025-07-27T10-53-30"
     }
   ]

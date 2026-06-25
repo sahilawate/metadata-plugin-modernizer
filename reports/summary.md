@@ -1,23 +1,25 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2026-03-22 00:51:34 UTC
+Generated on: 2026-06-22 01:26:00 UTC
 
 ## Overview
-- **Total Migrations**: 1244
-- **Failed Migrations**: 587
-- **Success Rate**: 52.81%
+- **Total Migrations**: 1388
+- **Failed Migrations**: 592
+- **Success Rate**: 57.35%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 522 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 32 failures
-- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 16 failures
+- io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 17 failures
 - io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText: 5 failures
 - io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 4 failures
 - io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins: 3 failures
+- io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides: 3 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 2 failures
+- io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
-- io.jenkins.tools.pluginmodernizer.MigrateToJava25: 1 failures
+- io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses: 1 failures
 
 ## Plugins with Failed Migrations
 - [CustomHistory](../CustomHistory/reports/failed_migrations.csv)
@@ -145,11 +147,13 @@ Generated on: 2026-03-22 00:51:34 UTC
 - [jgiven](../jgiven/reports/failed_migrations.csv)
 - [jigomerge](../jigomerge/reports/failed_migrations.csv)
 - [jira-steps](../jira-steps/reports/failed_migrations.csv)
+- [jobcacher](../jobcacher/reports/failed_migrations.csv)
 - [jobdelete-builder](../jobdelete-builder/reports/failed_migrations.csv)
 - [jobrequeue](../jobrequeue/reports/failed_migrations.csv)
 - [jobrevision](../jobrevision/reports/failed_migrations.csv)
 - [jobtemplates](../jobtemplates/reports/failed_migrations.csv)
 - [jsunit](../jsunit/reports/failed_migrations.csv)
+- [jwt-auth-filter](../jwt-auth-filter/reports/failed_migrations.csv)
 - [kanboard](../kanboard/reports/failed_migrations.csv)
 - [keep-slave-disconnected](../keep-slave-disconnected/reports/failed_migrations.csv)
 - [kiuwanJenkinsPlugin](../kiuwanJenkinsPlugin/reports/failed_migrations.csv)
@@ -190,6 +194,7 @@ Generated on: 2026-03-22 00:51:34 UTC
 - [pipeline-multibranch-defaults](../pipeline-multibranch-defaults/reports/failed_migrations.csv)
 - [piwikanalytics](../piwikanalytics/reports/failed_migrations.csv)
 - [post-completed-build-result](../post-completed-build-result/reports/failed_migrations.csv)
+- [postgresql-fingerprint-storage](../postgresql-fingerprint-storage/reports/failed_migrations.csv)
 - [pretested-integration](../pretested-integration/reports/failed_migrations.csv)
 - [probely-security](../probely-security/reports/failed_migrations.csv)
 - [puppet](../puppet/reports/failed_migrations.csv)
@@ -202,6 +207,7 @@ Generated on: 2026-03-22 00:51:34 UTC
 - [readonly-parameters](../readonly-parameters/reports/failed_migrations.csv)
 - [redgate-sql-ci](../redgate-sql-ci/reports/failed_migrations.csv)
 - [runscope](../runscope/reports/failed_migrations.csv)
+- [s3-jobcacher-storage](../s3-jobcacher-storage/reports/failed_migrations.csv)
 - [sasunit-plugin](../sasunit-plugin/reports/failed_migrations.csv)
 - [scripted-cloud-plugin](../scripted-cloud-plugin/reports/failed_migrations.csv)
 - [selected-tests-executor](../selected-tests-executor/reports/failed_migrations.csv)
@@ -252,10 +258,32 @@ Generated on: 2026-03-22 00:51:34 UTC
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 541 | - |
-| Open PRs | 91 | 16.82% |
-| Closed PRs | 26 | 4.81% |
-| Merged PRs | 424 | 78.37% |
+| Total PRs | 659 | - |
+| Open PRs | 78 | 11.84% |
+| Closed PRs | 32 | 4.86% |
+| Merged PRs | 549 | 83.31% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*
+
+## Migration Timeline
+- **2025-06**: 1 success, 1 fail, 2 total
+- **2025-07**: 164 success, 377 fail, 541 total
+- **2025-08**: 50 success, 5 fail, 55 total
+- **2025-09**: 50 success, 181 fail, 231 total
+- **2025-10**: 25 success, 9 fail, 34 total
+- **2025-11**: 5 success, 2 fail, 7 total
+- **2026-01**: 300 success, 12 fail, 312 total
+- **2026-02**: 3 success, 0 fail, 3 total
+- **2026-03**: 9 success, 0 fail, 9 total
+- **2026-04**: 70 success, 2 fail, 72 total
+- **2026-05**: 18 success, 1 fail, 19 total
+- **2026-06**: 51 success, 2 fail, 53 total
+
+## Tags
+- **skip-verification**: 759
+- **chore**: 759
+- **dependencies**: 467
+- **migration**: 298
+- **developer**: 156
+- **testing**: 6

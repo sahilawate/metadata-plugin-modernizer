@@ -3,6 +3,140 @@
   "pluginRepository": "https://github.com/jenkinsci/simple-priority-sorter-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "47.v920b_a_09b_0e77",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/38",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-06-06T17-06-38.json",
+      "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
+      "timestamp": "2026-06-06T17-06-38"
+    },
+    {
+      "pluginVersion": "47.v920b_a_09b_0e77",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/33",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T10-43-31.json",
+      "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
+      "timestamp": "2026-04-18T10-43-31"
+    },
+    {
+      "pluginVersion": "36.v0c14c3a_9f60d",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/simple-priority-sorter-plugin/pull/32",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "key": "2026-04-06T13-51-44.json",
+      "path": "metadata-plugin-modernizer/simple-priority-sorter/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
+      "timestamp": "2026-04-06T13-51-44"
+    },
+    {
       "pluginVersion": "36.v0c14c3a_9f60d",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -30,9 +164,9 @@
         "Tests / linux-25 / Build (linux-25)": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2026-01-24T14-58-23"
     },
     {
@@ -76,7 +210,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2026-01-14T12-47-10"
     },
     {
@@ -119,7 +253,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2026-01-14T12-00-05"
     },
     {
@@ -187,7 +321,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2026-01-10T19-21-30"
     },
     {
@@ -232,7 +366,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2026-01-04T10-03-28"
     },
     {
@@ -274,7 +408,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2026-01-04T09-54-12"
     },
     {
@@ -318,7 +452,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "06f5f93b615111e1209d3d2b0c59c9a1e0bbb663",
+      "defaultBranchLatestCommitSha": "e90408a960e81f00d44fc2bf317148f49ba66492",
       "timestamp": "2025-10-31T15-55-42"
     }
   ]

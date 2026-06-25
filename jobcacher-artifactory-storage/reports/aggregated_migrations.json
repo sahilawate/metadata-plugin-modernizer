@@ -3,6 +3,140 @@
   "pluginRepository": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "247.vd0519179835b_",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `banObsoleteDependencyOverrides.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin/pull/132",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-06-06T16-17-15.json",
+      "path": "metadata-plugin-modernizer/jobcacher-artifactory-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
+      "timestamp": "2026-06-06T16-17-15"
+    },
+    {
+      "pluginVersion": "218.vb_b_f388660e8b_",
+      "jenkinsBaseline": "2.528",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.528",
+      "jenkinsVersion": "2.528.3",
+      "migrationName": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`",
+      "migrationDescription": "Ensure the pom.xml contains the property `ban-deprecated-stapler.skip` set to `false`.",
+      "tags": [
+        "migration",
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin/pull/127",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2026-04-18T10-02-34.json",
+      "path": "metadata-plugin-modernizer/jobcacher-artifactory-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
+      "timestamp": "2026-04-18T10-02-34"
+    },
+    {
+      "pluginVersion": "218.vb_b_f388660e8b_",
+      "jenkinsBaseline": "2.516",
+      "targetBaseline": "2.528",
+      "effectiveBaseline": "2.516",
+      "jenkinsVersion": "2.516.3",
+      "migrationName": "Upgrade to the latest recommended core version and ensure the BOM matches the core version",
+      "migrationDescription": "Upgrade to the latest recommended core version and ensure the BOM matches the core version.",
+      "tags": [
+        "developer"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/jobcacher-artifactory-storage-plugin/pull/125",
+      "pullRequestStatus": "merged",
+      "dryRun": false,
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "key": "2026-04-06T13-14-20.json",
+      "path": "metadata-plugin-modernizer/jobcacher-artifactory-storage/modernization-metadata",
+      "checkRuns": {
+        "CPD": "success",
+        "CheckStyle": "success",
+        "ESLint": "success",
+        "Incrementals": "success",
+        "Java Compiler": "success",
+        "JavaDoc": "success",
+        "Jenkins": "success",
+        "Jenkins Security Scan": "success",
+        "Maven": "success",
+        "Open Tasks Scanner": "success",
+        "PMD": "success",
+        "SpotBugs": "success",
+        "Tests / linux-25 / Build (linux-25)": "success",
+        "Tests / windows-21 / Build (windows-21)": "success",
+        "auto-merge-safe-deps / auto-merge": "success",
+        "security-scan / scan": "success"
+      },
+      "checkRunsSummary": "success",
+      "defaultBranch": "main",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
+      "timestamp": "2026-04-06T13-14-20"
+    },
+    {
       "pluginVersion": "218.vb_b_f388660e8b_",
       "jenkinsBaseline": "2.516",
       "targetBaseline": "2.516",
@@ -30,9 +164,9 @@
         "Tests / linux-25 / Build (linux-25)": "success",
         "security-scan / scan": "success"
       },
-      "checkRunsSummary": "pending",
+      "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2026-01-24T14-29-14"
     },
     {
@@ -76,7 +210,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2026-01-14T12-09-30"
     },
     {
@@ -119,7 +253,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2026-01-14T11-08-20"
     },
     {
@@ -163,7 +297,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2026-01-10T20-12-29"
     },
     {
@@ -206,7 +340,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2026-01-04T09-30-28"
     },
     {
@@ -252,7 +386,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2026-01-03T19-11-42"
     },
     {
@@ -297,7 +431,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2025-10-31T15-15-59"
     },
     {
@@ -343,7 +477,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2025-08-09T09-45-55"
     },
     {
@@ -387,7 +521,7 @@
       },
       "checkRunsSummary": "success",
       "defaultBranch": "main",
-      "defaultBranchLatestCommitSha": "a3acf72b5e6c1b5c15c931586edc55755c9e3dd8",
+      "defaultBranchLatestCommitSha": "0d119ef70b8772c8ea9e4986a9c8d0491a4309b2",
       "timestamp": "2025-07-27T10-42-28"
     }
   ]
