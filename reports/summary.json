@@ -1,5 +1,5 @@
 {
-  "generatedOn": "2026-06-22 01:26:00 UTC",
+  "generatedOn": "2026-09-06 04:26:56 UTC",
   "totalMigrations": 1388,
   "failedMigrations": 592,
   "successRate": 57.35,
@@ -41,11 +41,11 @@
       "failures": 1
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
       "failures": 1
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.AddCodeOwner",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
       "failures": 1
     },
     {
