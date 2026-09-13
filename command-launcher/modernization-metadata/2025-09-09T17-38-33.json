@@ -15,7 +15,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateCommonsLang2ToLang3AndCommonText",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/command-launcher-plugin/pull/118",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 6,
   "deletions": 2,
@@ -42,5 +42,5 @@
   },
   "checkRunsSummary": "success",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "d115c24a18417d17019cfa2bfe1b32287798bed4"
+  "defaultBranchLatestCommitSha": "9578cf36b3110524ae2284db7986a7503fdef93e"
 }
