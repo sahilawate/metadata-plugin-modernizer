@@ -1,5 +1,5 @@
 {
-  "generatedOn": "2026-06-22 01:26:00 UTC",
+  "generatedOn": "2026-09-26 04:47:56 UTC",
   "totalMigrations": 1388,
   "failedMigrations": 592,
   "successRate": 57.35,
@@ -25,20 +25,16 @@
       "failures": 4
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
       "failures": 3
     },
     {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.BanObsoleteDependencyOverrides",
+      "recipeId": "io.jenkins.tools.pluginmodernizer.RemoveOldJavaVersionForModernJenkins",
       "failures": 3
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion",
       "failures": 2
-    },
-    {
-      "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
-      "failures": 1
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
@@ -50,6 +46,10 @@
     },
     {
       "recipeId": "io.jenkins.tools.pluginmodernizer.BanJavaxServletClasses",
+      "failures": 1
+    },
+    {
+      "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
       "failures": 1
     }
   ],
