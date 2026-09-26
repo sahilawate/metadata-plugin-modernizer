@@ -21,25 +21,8 @@
   "changedFiles": 1,
   "key": "2025-07-27T10-38-19.json",
   "path": "metadata-plugin-modernizer/jcaptcha-plugin/modernization-metadata",
-  "checkRuns": {
-    "CPD": "success",
-    "CheckStyle": "success",
-    "Code Coverage": "success",
-    "ESLint": "success",
-    "Incrementals": "success",
-    "Java Compiler": "success",
-    "JavaDoc": "success",
-    "Jenkins": "success",
-    "Jenkins Security Scan": "success",
-    "Maven": "success",
-    "Open Tasks Scanner": "success",
-    "PMD": "success",
-    "SpotBugs": "success",
-    "Tests / linux-21 / Build (linux-21)": "success",
-    "Tests / windows-17 / Build (windows-17)": "success",
-    "security-scan / scan": "success"
-  },
+  "checkRuns": {},
   "checkRunsSummary": "success",
   "defaultBranch": "main",
-  "defaultBranchLatestCommitSha": "7813f448efe1cf01afc0f96ec81e0d66c46d001e"
+  "defaultBranchLatestCommitSha": "5436c48e5de8cba40a38ab14e388066494fa09f8"
 }
