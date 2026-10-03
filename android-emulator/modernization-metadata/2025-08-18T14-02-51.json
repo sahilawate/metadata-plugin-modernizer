@@ -22,26 +22,8 @@
   "changedFiles": 19,
   "key": "2025-08-18T14-02-51.json",
   "path": "metadata-plugin-modernizer/android-emulator/modernization-metadata",
-  "checkRuns": {
-    "CPD": "success",
-    "CheckStyle": "success",
-    "Code Coverage": "success",
-    "ESLint": "success",
-    "Incrementals": "success",
-    "Java Compiler": "success",
-    "JavaDoc": "success",
-    "Jenkins": "success",
-    "Jenkins Security Scan": "success",
-    "Maven": "success",
-    "Open Tasks Scanner": "success",
-    "PMD": "success",
-    "SpotBugs": "success",
-    "Tests / arm64linux-21 / Build (arm64linux-21)": "success",
-    "Tests / linux-25 / Build (linux-25)": "success",
-    "Tests / windows-17 / Build (windows-17)": "success",
-    "security-scan / scan": "success"
-  },
+  "checkRuns": {},
   "checkRunsSummary": "success",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "57619b2e0267a92703453342c9fd2a68c71cc708"
+  "defaultBranchLatestCommitSha": "4696c661dc8372e9ff4e735f1d45a389bec9f264"
 }
