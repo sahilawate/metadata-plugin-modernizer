@@ -21,12 +21,8 @@
   "changedFiles": 1,
   "key": "2025-11-18T05-51-04.json",
   "path": "metadata-plugin-modernizer/extra-tool-installers/modernization-metadata",
-  "checkRuns": {
-    "Jenkins": null,
-    "Jenkins Security Scan": "success",
-    "security-scan / scan": "success"
-  },
+  "checkRuns": {},
   "checkRunsSummary": "success",
   "defaultBranch": "main",
-  "defaultBranchLatestCommitSha": "a7ff8a43fb2339d58544aebfa973c44a00b28da6"
+  "defaultBranchLatestCommitSha": "80b1fec587b1e8c5796c22fd12cff1f88201a39d"
 }
